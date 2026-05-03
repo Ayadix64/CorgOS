@@ -1,5 +1,5 @@
 # Corg OS
-=
+
 Ayadi OS kernel
 <img src="picturs/p1.png"></img>
 
