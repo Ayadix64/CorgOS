@@ -1,0 +1,22 @@
+# Memory
+megs: 256
+
+# Boot from your kernel image
+boot: disk
+ata0-master: type=disk, path="OS.img", mode=flat #, cylinders=10, heads=16, spt=63
+ata0-slave: type=none
+
+# If your kernel is a raw binary
+#floppya: 1_44="kernel.img", status=inserted
+boot: c
+
+# Display and debug
+display_library: sdl2
+log: bochsout.txt
+panic: action=ask
+error: action=report
+info: action=report
+
+# Enable debugger on startup
+debugger_log: debugger.txt
+
