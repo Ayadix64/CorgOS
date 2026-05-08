@@ -19,7 +19,7 @@ i want to learn low level, and i think that the best whay to do it is just creat
 after some thinking, i sugest that i have to do some reale work, so i decede to relese as it, 
 
 ### Will it stell devolepe ?
-i dont think so, if i have a free time, may be i ill chakout it
+i dont think so, if i have a free time or see that the comunity like it,  i will check it out
 ### How to compile it?
 you have to install i386-elf-gcc at /usr/locale/i386elfgcc, 
 and then run
@@ -29,9 +29,9 @@ make run
 ```
 if you have windows, install wsl, installing the compiler it selfe will be a journy
 
-### wnat to run it on bare metel?
+### want to run it on bare metel?
 will i do run it, but you have to be carfule, becuse it realy ez to wipe your system with a command; so be carfule.
-after compileing , you will get a OS.img, you just have to dd it
+after compileing , you will get a OS.img, you just have to dd it, dont use the make install, it will automaticly dd it into /dev/sdb, of your usb is that, i supose it is ok
 ``` bash
 sudo dd if=OS.img of=*your flash drive* status=progress
 ```
